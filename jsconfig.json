@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@keystone/*": ["keystone/*"],
+      "@assets/*": ["assets/*"],
+      "@config/*": ["config/*"],
+      "@components/*": ["components/*"],
+      "@utils/*": ["utils/*"],
+      "@primitives/*": ["primitives/*"],
+      "@pages/*": ["pages/*"],
+      "@graphql/*": ["graphql/*"],
+      "@svg": ["svg"],
+      "@keystone/components/*": ["keystone/themes/KeystoneUI/components/*"],
+      "@keystone/screens/*": ["keystone/themes/KeystoneUI/screens/*"],
+      "@keystone/views/*": ["keystone/themes/KeystoneUI/views/*"]
+    }
+  },
+  "include": ["**/*.js"],
+  "exclude": ["node_modules"]
+}
